@@ -8,9 +8,9 @@ variable "rg_locations" {
 variable "address_space_vnet" {
   type = list(string)
 }
-variable "public_ip_vm" {
-  type = list(string)
-}
+# variable "public_ip_vm" {
+#   type = list(string)
+# }
 
 
 
